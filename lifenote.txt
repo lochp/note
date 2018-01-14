@@ -1,2 +1,5 @@
 Disable Windows Defender by Regedit
 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+
+[MYSQL]
+UPDATE mysql.user SET Password=PASSWORD('password') WHERE User='root'; FLUSH PRIVILEGES;
