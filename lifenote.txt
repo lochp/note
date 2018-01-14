@@ -1,3 +1,2 @@
 Disable Windows Defender by Regedit
 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
-
