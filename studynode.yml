@@ -1,0 +1,2 @@
+HIBERNATE
+	SessionFactory: 1 per database
