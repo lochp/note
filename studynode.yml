@@ -1,2 +1,6 @@
-HIBERNATE
-	SessionFactory: 1 per database
+HIBERNATE:
+	SessionFactory: heavyweight object - 1 per database - Create when app start
+    Session: physical connection with database - lightweight object - unsafe for long time ( create/delete as needed)
+    Transaction: unit of work with the database
+    Query: SQL or HQL string to retrieve data from the database and create object
+    Criteria: Create and execute object oriented criteria queries
