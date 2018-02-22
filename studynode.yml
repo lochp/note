@@ -1,6 +1,13 @@
 HIBERNATE:
+    Configuration Object: Database connection ( hibernate.properties + hibernate.cfg.xml) + Class Mapping Setup ( annotation )
 	SessionFactory: heavyweight object - 1 per database - Create when app start
     Session: physical connection with database - lightweight object - unsafe for long time ( create/delete as needed)
+        transient
+        persistent
+        detached
     Transaction: unit of work with the database
     Query: SQL or HQL string to retrieve data from the database and create object
     Criteria: Create and execute object oriented criteria queries
+    
+MYSQL
+    CREATE SCHEMA `mkyong` DEFAULT CHARACTER SET utf8 ;
