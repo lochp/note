@@ -10,4 +10,4 @@ HIBERNATE:
     Criteria: Create and execute object oriented criteria queries
     
 MYSQL
-    CREATE SCHEMA `mkyong` DEFAULT CHARACTER SET utf8;
+    CREATE SCHEMA `mkyong` DEFAULT CHARACTER SET utf8 ;
