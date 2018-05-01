@@ -11,3 +11,4 @@ HIBERNATE:
     
 MYSQL
     CREATE SCHEMA `mkyong` DEFAULT CHARACTER SET utf8;
+    
